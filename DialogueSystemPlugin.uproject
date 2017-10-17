@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.16",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DialogueSystemPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "DialogueSystem",
+			"Enabled": true
+		},
+        { "Name": "HTTPChunkInstaller", "Enabled": true }
+	]
+}
